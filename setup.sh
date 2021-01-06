@@ -1,7 +1,7 @@
 #!/bin/bash
 # Original Minecraft Server Installation Script - James A. Chambers - https://www.jamesachambers.com.
 # Changes and simplifications by Marc Tönsing
-# Modified by Joey Reinhart
+# Modified by Joey Reinhart on Jan 5th 2021
 
 echo "Minecraft Server installation script by James Chambers and Marc Tönsing - V1.0"
 echo "Latest version always at https://github.com/mtoensing/RaspberryPiMinecraft"
