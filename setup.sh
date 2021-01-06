@@ -55,11 +55,6 @@ echo "Grabbing restart.sh from repository... "
 wget -O restart.sh https://raw.githubusercontent.com/oofmaster69420/RaspberryPiMinecraftServer/master/restart.sh
 chmod +x restart.sh
 
-echo "Enter a name for your server "
-read -p 'Server Name: ' servername
-echo "server-name=$servername" >> server.properties
-echo "motd=$servername" >> server.properties
-
 echo "Setup is complete. To run the server go to the minecraft directory and type ./run.sh"
 echo "Don't forget to set up port forwarding on your router. The default port is 25565"
 echo "Don't forget to set up the server.properties file to your liking."
