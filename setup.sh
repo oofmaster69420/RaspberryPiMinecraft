@@ -26,7 +26,7 @@ mkdir minecraft
 cd minecraft
 
 echo "Getting latest Spigot Minecraft server..."
-wget -O server.jar https://cdn.getbukkit.org/spigot/spigot-1.16.4.jar
+wget -O server.jar https://cdn.getbukkit.org/spigot/spigot-1.16.5.jar
 
 echo "Building the Minecraft server... "
 java -jar -Xms800M -Xmx800M server.jar
